@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="12.2">
+  <zoom_level>8</zoom_level>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>776</x>
+      <y>232</y>
+      <w>128</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>HLocationDim
+--
+HLocID
+Region
+State
+Country</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>776</x>
+      <y>352</y>
+      <w>128</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>HouseTypeDim
+--
+HouseTypeID
+TypeDesc</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>776</x>
+      <y>448</y>
+      <w>128</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>HouseSizeDim
+--
+HouseSize
+HouseSizeDesc</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>176</x>
+      <y>224</y>
+      <w>120</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>MemberProfileDim
+--
+ProfID
+ProfDesc</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>176</x>
+      <y>392</y>
+      <w>120</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>YearDim
+--
+Year</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>176</x>
+      <y>472</y>
+      <w>120</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>MonthDim
+--
+Month</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>176</x>
+      <y>312</y>
+      <w>120</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>ActualSwapLengthDim
+--
+SwapLength</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>176</x>
+      <y>552</y>
+      <w>120</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>TimeSessionDim
+--
+TimeSessionID
+TimeSession
+TimeSessionDesc</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>560</x>
+      <y>560</y>
+      <w>128</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>LargeCityDistDim
+--
+LargeCityDist
+LargeCityDistDesc</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>368</x>
+      <y>560</y>
+      <w>128</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>MajorAirportDistDim
+--
+MajorAirportDist
+MajorAirportDistDesc</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>768</x>
+      <y>32</y>
+      <w>136</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>AmenityTypeDim
+--
+AmenityTypeID
+AmenityType</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>776</x>
+      <y>560</y>
+      <w>128</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>OpenToAnyDestDim
+--
+OpenToAnyDesc</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>376</x>
+      <y>256</y>
+      <w>312</w>
+      <h>272</h>
+    </coordinates>
+    <panel_attributes>SwapsFact
+--
+NumofCompSwaps
+NumofFailSwaps
+TotalSatisfRate
+TotalRentalSaving
+NLocGroupID
+LocActGroupID
+AmenityTypeGroupID
+HouseTypeID
+SLocID
+DLocID
+ProfID
+SwapLength
+Year
+Month
+TimeSessionID
+MajorAirportDist
+LargeCityDist
+OpenToAnyDest
+HouseSize</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>272</x>
+      <y>232</y>
+      <w>120</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>104;88;24;24</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>272</x>
+      <y>312</y>
+      <w>120</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>104;72;24;24</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>272</x>
+      <y>392</y>
+      <w>120</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>104;24;24;24</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>272</x>
+      <y>432</y>
+      <w>120</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>104;24;24;72</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>272</x>
+      <y>480</y>
+      <w>120</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>104;24;24;72</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>416</x>
+      <y>504</y>
+      <w>40</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>24;24;24;56</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>584</x>
+      <y>504</y>
+      <w>48</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>24;24;32;56</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>664</x>
+      <y>480</y>
+      <w>136</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>24;24;120;80</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>664</x>
+      <y>416</y>
+      <w>128</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>24;24;112;64</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>664</x>
+      <y>352</y>
+      <w>128</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>24;24;112;40</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>664</x>
+      <y>256</y>
+      <w>128</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>24;56;112;24</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>168</x>
+      <y>32</y>
+      <w>136</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>NaturalLocationDim
+--
+NLocID
+LocDesc</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>168</x>
+      <y>120</y>
+      <w>136</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>BRIDG_NaturalLocation
+--
+NLocGroupID
+NLocID</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>616</x>
+      <y>168</y>
+      <w>128</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>AmenityTypeGroup
+--
+AmenityTypeGroupID
+AmenityTypeGroupList
+Weight_factor</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>800</x>
+      <y>64</y>
+      <w>40</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>24;56;24;24</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>208</x>
+      <y>64</y>
+      <w>40</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>24;56;24;24</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>208</x>
+      <y>144</y>
+      <w>136</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>120;56;24;24</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>720</x>
+      <y>144</y>
+      <w>120</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>104;24;24;56</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>328</x>
+      <y>168</y>
+      <w>136</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>NaturalLocGroup
+--
+NLocGroupID
+NLocGroupList
+Weight_factor</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>360</x>
+      <y>200</y>
+      <w>72</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>56;56;24;24</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>768</x>
+      <y>120</y>
+      <w>136</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>BRIDG_AmenityType
+--
+AmenityTypeGroupID
+AmenityTypeID</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>600</x>
+      <y>200</y>
+      <w>80</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>64;24;24;56</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>472</x>
+      <y>168</y>
+      <w>128</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>LocalActivityGroup
+--
+LocActGroupID
+LocActGroupList
+Weight_factor</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>504</x>
+      <y>200</y>
+      <w>40</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>24;56;24;24</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>472</x>
+      <y>16</y>
+      <w>128</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>TempLocalActivityDim
+--
+ActivityID
+ActivityDesc
+StartValid
+EndValid
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>472</x>
+      <y>104</y>
+      <w>128</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>BRIDG_TempLocAct
+--
+LocActGroupID
+ActivityID</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>504</x>
+      <y>128</y>
+      <w>40</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>24;24;24;40</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>504</x>
+      <y>64</y>
+      <w>40</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>24;24;24;40</additional_attributes>
+  </element>
+</diagram>
